@@ -7,6 +7,10 @@
     "sourceMap": true,
     "outDir": "./dist",
     "baseUrl": ".",
+    "paths": {
+      "@enum/*": ["./src/enum/*"],
+      "@lib/*": ["./src/lib/*"]
+    }
   },
   "include": ["./src/**/*"]
 }
