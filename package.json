@@ -2,10 +2,13 @@
   "name": "help_me",
   "version": "0.0.1",
   "description": "A talking service for people that have questions",
-  "main": "server.ts",
+  "main": "/src/index.ts",
   "author": "Criss Guinther",
   "license": "MIT",
   "private": true,
+  "scripts": {
+    "dev": "nodemon ./src/index.ts"
+  },
   "dependencies": {
     "@types/express": "^4.17.17",
     "@types/socket.io": "^3.0.2",
