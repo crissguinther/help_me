@@ -1,7 +1,7 @@
 {
-  "name": "help_me",
+  "name": "help_me_api",
   "version": "0.0.1",
-  "description": "A talking service for people that have questions",
+  "description": "A talking service for people that have questions about life",
   "main": "/src/index.ts",
   "author": "Criss Guinther",
   "license": "MIT",
