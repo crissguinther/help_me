@@ -9,7 +9,9 @@
     "baseUrl": ".",
     "paths": {
       "@enum/*": ["./src/enum/*"],
-      "@lib/*": ["./src/lib/*"]
+      "@lib/*": ["./src/lib/*"],
+      "@sockets/*": ["./src/sockets/*"],
+      "@base/*": ["./src/*"]
     }
   },
   "include": ["./src/**/*"]
